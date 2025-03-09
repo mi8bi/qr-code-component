@@ -1,0 +1,42 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.content {
+    margin: 16px 16px 40px 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 500px;
+}
+
+.qrcode {
+    border-radius: 20px;
+}
+
+.text {
+    margin: 0px 16px 0px 16px;
+}
+
+.title {
+    margin-top: 24px;
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+    font-size: 22;
+    line-height: 120%;
+}
+
+.desc {
+    margin-top: 16px;
+    font-size: 15;
+    color: hsl(216, 15%, 48%);
+}
