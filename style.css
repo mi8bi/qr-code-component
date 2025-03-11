@@ -1,5 +1,9 @@
 html,
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     padding: 0px;
     margin: 0px;
     background-color: hsl(212, 45%, 89%);
@@ -25,18 +29,19 @@ body {
 
 .text {
     margin: 0px 16px 0px 16px;
+    text-align: center;
 }
 
 .title {
     margin-top: 24px;
     color: hsl(218, 44%, 22%);
     font-weight: bold;
-    font-size: 22;
+    font-size: 22px;
     line-height: 120%;
 }
 
 .desc {
     margin-top: 16px;
-    font-size: 15;
+    font-size: 15px;
     color: hsl(216, 15%, 48%);
 }
